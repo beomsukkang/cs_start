@@ -34,6 +34,7 @@ namespace Inheritance
         {
             Console.WriteLine($"{this.Name}.~Derived()");
         }
+
         public void DerivedMethod()
         {
             Console.WriteLine($"{Name}.DerivedMethod()");
