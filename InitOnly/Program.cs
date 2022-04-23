@@ -7,7 +7,7 @@ set 접근자처럼 외부에서 프로퍼티를 변경할 수 있지만, 객체
 
 namespace InitOnly
 {
-    class Transaction
+    class Transaction 
     {
         public  string  From { get; init; }
         public  string  To { get; init; }
