@@ -15,12 +15,12 @@ namespace InitializingArray
             foreach (string greeting in array1)
                 Console.WriteLine($"{greeting}");
 
-            string[] array2 = new string[3] { "안녕", "Hello", "Halo" };
+            string[] array2 = new string[] { "안녕", "Hello", "Halo" }; //2번방법
             Console.WriteLine("\narray2...");
             foreach (string greeting in array2)
                 Console.WriteLine($"{greeting}");
 
-            string[] array3 = new string[3] { "안녕", "Hello", "Halo" };
+            string[] array3 = { "안녕", "Hello", "Halo" }; //3번방법
             Console.WriteLine("\narray3...");
             foreach (string greeting in array3)
                 Console.WriteLine($"{greeting}");
