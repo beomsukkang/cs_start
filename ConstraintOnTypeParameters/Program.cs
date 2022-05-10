@@ -64,6 +64,11 @@ namespace ConstraintOnTypeParameters
             b.Array[0] = new StructArray<double>(5);
             b.Array[1] = new StructArray<double>(10);
             b.Array[2] = new StructArray<double>(1005);
+            /*foreach (var x in b.array)
+                Console.WriteLine($"{x}");*/
+            for (int i = 0; i < b.Array.Length; i++)
+                Console.WriteLine($"{b.Array[i]}");
+
 
             BaseArray<Base> c = new BaseArray<Base>(3);
             c.Array[0] = new Base();
@@ -82,3 +87,6 @@ namespace ConstraintOnTypeParameters
         }
     }
 }
+
+//출력문 삽입해서 확인할것
+//인터페이스를 구현하는 클래스로 형식 매개변수를 제약하는 일반화코드 만들어보기
